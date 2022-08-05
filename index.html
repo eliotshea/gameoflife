@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" type="text/css" href="styles/index.css">
+    <link rel="stylesheet" type="text/css" href="styles/board.css">
+    <script src="scripts/utility.js" defer></script>
+    <script src="scripts/render.js" defer></script>
+    <script src="scripts/gamelogic.js" defer></script>
+  </head>
+  <body>
+    <div class="scrollContainer" id="containerY">
+      <div class="scrollContainer" id="containerX">
+        <canvas id="board"></canvas>
+        <div class="scrollBar" id="barX" draggable="true"></div>
+      </div>
+      <div class="scrollBar" id="barY" draggable="true"></div>
+    </div>
+    <button id="startStop">Start</button>
+  </body>
+  <script src="scripts/startup.js" defer></script>
+</html>

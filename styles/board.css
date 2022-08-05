@@ -1,0 +1,30 @@
+.scrollContainer {
+  display: flex;
+}
+
+#containerX {
+  flex-direction: row;
+}
+
+#containerY {
+ flex-direction: column;
+}
+
+.scrollBar {
+  background-color: lightgray;
+  opacity: 0;
+  transition: opacity 200ms ease-in;
+  cursor: pointer;
+}
+
+.scrollBar:hover {
+  opacity: 1;
+}
+
+#barX {
+
+}
+
+#barY {
+  
+}
